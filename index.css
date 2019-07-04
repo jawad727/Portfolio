@@ -278,7 +278,7 @@ footer div i {
 }
 
 .twitt:hover {
-    background: #64B6FF;
+    background: #3AAAE2;
 }
 
 .instt:hover {
@@ -288,3 +288,45 @@ footer div i {
 .linkk:hover {
     background: blue;
 } 
+
+@media (max-width: 1110px) {
+    .secondSecWrapper {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .griipeContainer {
+        flex-direction: column;
+    }
+
+    .profpic {
+        margin: 20px 0px;
+    }
+
+    .secondSection {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .projectone {
+        width: 400px;
+        height: 200px;
+    }
+
+    .secondSecWrapper {
+        height: 700px;
+    }
+
+    .secondSecContent {
+        width: 400px;
+    }
+ 
+    .griipetext {
+        width: 400px;
+    }
+
+    .topSecContent h3 {
+        text-align: center;
+    }
+}
