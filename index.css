@@ -231,3 +231,60 @@ li {
     height: 50px;
     background: #E1E1E1;
 }
+
+.wayve2 {
+    width: 100%;
+    height: 20px;
+    background: #444444;
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.wayve3 {
+   height: 80px;
+   width: 100%;
+   background-color: #151515;
+}
+
+.plusone {
+    color: #FF385F;
+    background: #151515;
+    padding: 0;
+    font-size: 1.7rem;
+  
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    padding: 40px 0px;
+
+}
+
+footer div i {
+    background: #151515;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 20px;
+}
+
+ .gitt:hover {
+    background: green;
+}
+
+.twitt:hover {
+    background: #64B6FF;
+}
+
+.instt:hover {
+    background: purple;
+}
+
+.linkk:hover {
+    background: blue;
+} 
