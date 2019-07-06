@@ -22,7 +22,6 @@ body {
 
 .introText {
     color: white;
-
 }
 
 .topSecContent {
@@ -261,7 +260,7 @@ footer div {
     display: flex;
     justify-content: center;
     background-color: #151515;
-    padding: 40px 0px;
+    padding: 10px 0px;
 
 }
 
@@ -289,6 +288,27 @@ footer div i {
     background: blue;
 } 
 
+.tags {
+    background: #151515;
+    color: #FF385F;
+    text-align: center;
+    margin: 0px;
+    padding-top: 50px;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.1rem;
+}
+
+.credits {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    background: #151515;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.1rem;
+}
+
 @media (max-width: 1110px) {
     .secondSecWrapper {
         flex-direction: column;
@@ -305,6 +325,7 @@ footer div i {
 
     .secondSection {
         padding: 0px;
+        justify-content: center;
     }
 }
 
@@ -329,4 +350,11 @@ footer div i {
     .topSecContent h3 {
         text-align: center;
     }
+
+    .secondSection a {
+        margin: 0px;
+        margin-left: 20px;
+    }
+
+
 }
