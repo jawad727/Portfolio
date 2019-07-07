@@ -22,6 +22,7 @@ body {
 
 .introText {
     color: white;
+
 }
 
 .topSecContent {
@@ -146,6 +147,8 @@ h2 {
     height: 10px;
     border-bottom: 7px solid #FF385F;
     text-align: center;
+    transform: translateX(-300px);
+    opacity: 0;
 }
 
 .shortLineCover {
@@ -264,7 +267,7 @@ footer div {
     display: flex;
     justify-content: center;
     background-color: #151515;
-    padding: 10px 0px;
+    padding: 40px 0px;
 
 }
 
@@ -311,7 +314,7 @@ footer div i {
     padding-bottom: 20px;
     font-family: 'Alegreya Sans SC';
     font-size: 1.1rem;
-}
+} 
 
 @media (max-width: 1110px) {
     .secondSecWrapper {
@@ -329,7 +332,6 @@ footer div i {
 
     .secondSection {
         padding: 0px;
-        justify-content: center;
     }
 }
 
@@ -354,11 +356,4 @@ footer div i {
     .topSecContent h3 {
         text-align: center;
     }
-
-    .secondSection a {
-        margin: 0px;
-        margin-left: 20px;
-    }
-
-
 }
