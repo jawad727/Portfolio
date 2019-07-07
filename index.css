@@ -31,8 +31,10 @@ body {
     align-items: center;
     z-index: 2;
     position: absolute;
-    top: 250px;
+    top: 40%;
     width: 100%;
+    opacity: 0;
+
 }
 
 .topSecContent h3 {
@@ -48,8 +50,8 @@ body {
 .topSecContent a {
     height: 45px;
     width: 160px;
-    background: transparent;
-    border: 3px solid white;
+    background: rgba(255, 56, 95, 0);
+    border: 3px solid rgba(255, 255, 255, 1);
     border-radius: 5px;
     color: white;
     font-family: 'Alegreya Sans SC';
@@ -58,6 +60,8 @@ body {
     text-align: center;
     line-height: 2.5;
 }
+
+
 
 .inline1 {
     color: #FF385F;
