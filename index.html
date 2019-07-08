@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body id="asdf" class='body'>
@@ -17,6 +18,17 @@
             <i id="MenuLogo" class="fas fa-bars fa-2x"></i>
   
     </header>
+
+<section>
+    <i id="exitButton" class="fas fa-times fa-2x"></i>
+    <div class="openMenu">
+        <a id="menuResume">Resume</a>
+        <a id="menuGithub">Github</a>
+        <a id="menuLinkedin">LinkedIn</a>
+        <a id="menuTwitter">Twitter</a>
+    </div>
+</section>
+
 
 <section>
 
@@ -36,7 +48,7 @@
     <div id="realNav" class="secondSection">
         <a id="homeScroll">Home</a>
         <a id="introScroll">Intro</a>
-        <a id="portfolioScroll">Portfolio</a>
+        <a id="portfolioScroll">Projects</a>
         <a id="contactScroll">Contact</a>
     </div>
     <h2 id="aaaa" class="introTitle">intro</h2>
@@ -44,9 +56,9 @@
     <div id="firstLine" class="shortLine"></div>
     </div>
     <div class="secondSecWrapper">
-        <img class="profpic" src="./prof.PNG" />
+        <img data-aos="fade-right" class="profpic" src="./prof.PNG" />
         
-        <div class="secondSecContent">
+        <div data-aos="fade-left" class="secondSecContent">
             <p>Jawad is a highly efficient Junior Developer with experience creating full-stack web apps using React and NodeJS. A dependable and organized team player with the ability to communicate effectively and efficiently. Proficient at working under pressure and learning new tech stacks on the go.</p>
         </div>
     </div>
@@ -54,31 +66,31 @@
 <img class="wayve" src="./wayve.png" />
 <section>
 
-        <h2 class="projectsTitle">projects</h2>
+        <h2 id="bbbb" class="projectsTitle">projects</h2>
         <div class="shortLineCover2"><div id="secondLine" class="shortLine"></div>
     </div>
     <div class="griipeContainer">
-        <img class="projectOne" src="./Project1.PNG" />
+        <img data-aos="fade-right" class="projectOne" src="./Project1.PNG" />
         <div class="griipeText">
-            <h3>Griipe  (Team)</h3>
-            <p>Griipe acts as a hub for customer service complaints worldwide. Simply search for a business, record a complaint, and our app will transcribe the complaint into text, tweet it from our Twitter, and put it on the Griipe leader boards for the rest of the world to see. Click here to see more</p>
+            <h3 data-aos="fade-right">Griipe  (Team)</h3>
+            <p data-aos="fade-right">Griipe acts as a hub for customer service complaints worldwide. Simply search for a business, record a complaint, and our app will transcribe the complaint into text, tweet it from our Twitter, and put it on the Griipe leader boards for the rest of the world to see. Click here to see more</p>
 
         </div>
     </div>
     <div class="griipeContainer secondg">
-            <img class="projectOne" src="./project2.PNG" />
+            <img data-aos="fade-left" class="projectOne" src="./project2.PNG" />
             <div class="griipeText">
-                <h3>Research Pal (Team)</h3>
-                <p>ResearchPal allows a user to post links to interesting articles and share them with the world. A user also has the ability to browse for articles based on the category they prefer.</p>
+                <h3 data-aos="fade-left">Research Pal (Team)</h3>
+                <p data-aos="fade-left">ResearchPal allows a user to post links to interesting articles and share them with the world. A user also has the ability to browse for articles based on the category they prefer.</p>
     
             </div>
         </div>
         <img class="wayve2" src="./wayve.png" />
         <div class="griipeContainer thirdg">
-                <img class="projectOne"  />
+                <img data-aos="fade-right" class="projectOne"  />
                 <div class="griipeText">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium omnis, est ad enim harum sit rerum nisi adipisci hic in iusto quasi esse veniam neque magni dolore, soluta obcaecati quo.</p>
+                    <h3 data-aos="fade-right">Lorem ipsum</h3>
+                    <p data-aos="fade-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium omnis, est ad enim harum sit rerum nisi adipisci hic in iusto quasi esse veniam neque magni dolore, soluta obcaecati quo.</p>
         
                 </div>
             </div>
@@ -97,6 +109,7 @@
     <p class="credits">created by yours truly</p>
 </footer>
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"> </script>
 
 
@@ -104,13 +117,11 @@
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous">
-  
-
-
-  </script>
-
+  crossorigin="anonymous"></script>
 <script rel="javascript" src="./index.js"></script>
+<script>
+        AOS.init();
+</script>
 
 </body>
 </html>

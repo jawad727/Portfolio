@@ -93,7 +93,6 @@ body {
 #MenuLogo {
     color: white;
     margin-right: 80px;
-
     position: fixed;
     z-index: 3;
     top: 12px;
@@ -118,6 +117,7 @@ body {
     border-bottom: 3px solid #3AE2D5;
     z-index: 3;
 }
+
 
 .secondSection a {
     font-size: 1.3rem;
@@ -186,8 +186,13 @@ h2 {
     margin: 0px;
     padding-top: 25px;
     background-color: #E1E1E1;
-    
 }
+
+#aaaa {
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
 
 .projectOne {
     width: 500px; 
@@ -289,7 +294,7 @@ footer div {
     display: flex;
     justify-content: center;
     background-color: #151515;
-    padding: 40px 0px;
+    padding: 10px 0px;
 
 }
 
@@ -337,7 +342,42 @@ footer div i {
     padding-bottom: 20px;
     font-family: 'Alegreya Sans SC';
     font-size: 1.1rem;
-} 
+}
+
+.openMenu {
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background: rgb(0, 0, 0, .8);
+    transform: translateX(160px);
+    display: none;
+
+}
+
+.openMenu a {
+    font-weight: 100px;
+    color: rgba(255, 255, 255);
+    font-size: 4rem;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#exitButton {
+    color: white;
+    margin-right: 80px;
+    position: fixed;
+    top: 12px;
+    left: 95%;
+    z-index: 8;
+    transform: rotate(0deg);
+    display: none;
+}
 
  
 @media (max-width: 1110px) {
@@ -363,6 +403,11 @@ footer div i {
 
         left: 90%;
     }
+
+    #exitButton {
+        left: 90%;
+    }
+    
 }
 
 @media (max-width: 600px) {
