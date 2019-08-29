@@ -100,6 +100,12 @@ body {
     z-index: 6;
 }
 
+
+
+.clickPointer:hover {
+    cursor: pointer;
+}
+
 #firstLine {
     transform: translateX(-400px);
 }
@@ -383,7 +389,7 @@ footer div i {
 @media (max-width: 1110px) {
     .secondSecWrapper {
         flex-direction: column;
-        height: 600px;
+        height: 900px;
     }
 
     .griipeContainer {
@@ -392,12 +398,39 @@ footer div i {
 
     .profpic {
         margin: 20px 0px;
+        width: 50%;
+    }
+
+    .secondSecContent  {
+        width: 80%;
+    }
+
+    .secondSecContent p {
+        font-size: 1.8rem;
     }
 
     .secondSection {
         padding: 0px;
         justify-content: center;
     }
+
+    .projectOne {
+        width: 80%;
+        height: auto;
+    }
+
+    .griipeText {
+        width: 80%
+    }
+
+    .griipeText p {
+        font-size: 1.8rem;
+    }
+
+    .griipeText h3 {
+        font-size: 2rem;
+    }
+
 
     #MenuLogo {
 
@@ -411,31 +444,28 @@ footer div i {
 }
 
 @media (max-width: 600px) {
-    .projectone {
-        width: 400px;
-        height: 200px;
-    }
+.griipeText p {
+    font-size: 1.4rem;
+}
 
-    .secondSecWrapper {
-        height: 700px;
-    }
+.secondSecContent p {
+    font-size: 1.4rem;
+}
 
-    .secondSecContent {
-        width: 400px;
-    }
- 
-    .griipetext {
-        width: 400px;
-    }
+.secondSecWrapper {
 
-    .topSecContent h3 {
-        text-align: center;
-    }
+    height: 650px;
+}
 
     .secondSection a {
         margin: 0px;
         margin-left: 20px;
     }
 
+.topSecContent h3 {
+    text-align: center;
+}
+
 
 } 
+
