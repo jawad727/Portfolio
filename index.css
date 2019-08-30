@@ -342,7 +342,7 @@ footer div i {
 .credits {
     padding: 0px;
     margin: 0px;
-    color: black;
+    color: #FF385F;
     background: #151515;
     text-align: center;
     padding-bottom: 20px;
@@ -402,10 +402,14 @@ footer div i {
     }
 
     .secondSecContent  {
-        width: 80%;
+        width: 90%;
     }
 
     .secondSecContent p {
+        font-size: 1.9rem;
+    }
+
+    .secondSection a {
         font-size: 1.8rem;
     }
 
@@ -415,22 +419,29 @@ footer div i {
     }
 
     .projectOne {
-        width: 80%;
+        width: 90%;
         height: auto;
     }
 
+    #aaaa {
+        font-size: 3rem;
+    }
+
     .griipeText {
-        width: 80%
+        width: 90%
     }
 
     .griipeText p {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
 
     .griipeText h3 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
+    .projectsTitle {
+        font-size: 3rem;
+    }
 
     #MenuLogo {
 
@@ -440,7 +451,28 @@ footer div i {
     #exitButton {
         left: 90%;
     }
+
+    .topSecContent h3 {
+        font-size: 3.5rem;
+    }
+
+    #ViewMyWork {
+        width: 250px;
+        height: 80px;
+        line-height: 2.5;
+        font-size: 2rem;
+    }
     
+}
+
+@media (max-width: 800px) {
+    .secondSection a {
+        font-size: 1.5rem;
+    }
+
+    .topSecContent h3 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 600px) {
