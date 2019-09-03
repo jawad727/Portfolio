@@ -4,7 +4,7 @@ var elwidth = document.getElementById('homePage').offsetWidth;
 
 
 window.addEventListener("load", function() {
-    TweenMax.to(".topSecContent", 1.5, {transform: 'translateY(30px)', opacity: 1, ease:Cubic.easeOut})
+    TweenMax.to(".topSecContent", 3, {transform: 'translateY(30px)', opacity: 1, ease:Cubic.easeOut})
 })
 
 document.getElementById('ViewMyWork').addEventListener("mouseover", function() {
