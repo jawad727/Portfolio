@@ -24,6 +24,16 @@ body {
    transform: scale(1.1);
 }
 
+#profPicID {
+    transform: scale(1);
+}
+
+
+
+#profPicID:hover {
+    cursor: pointer;
+}
+
 .introText {
     color: white;
 
@@ -340,20 +350,44 @@ footer div i {
     margin: 20px;
 }
 
- .gitt:hover {
-    background: green;
+ .gitt {
+    background: #FF385F;
+    color: #151515;
 }
 
 .twitt:hover {
-    background: #3AAAE2;
+    background: #c72c4a;
+    cursor: pointer;
+}
+
+.gitt:hover {
+    background: #c72c4a;
+    cursor: pointer;
 }
 
 .instt:hover {
-    background: purple;
+    background: #c72c4a;
+    cursor: pointer;
 }
 
 .linkk:hover {
-    background: blue;
+    background: #c72c4a;
+    cursor: pointer;
+}
+
+.twitt {
+    background: #FF385F;
+    color: #151515;
+}
+
+.instt {
+    background: #FF385F;
+    color: #151515;
+}
+
+.linkk {
+    background: #FF385F;
+    color: #151515;
 } 
 
 .tags {
@@ -420,6 +454,14 @@ footer div i {
 
  
 @media (max-width: 1110px) {
+
+    #profpicLinker {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
     .secondSecWrapper {
         flex-direction: column;
         height: 900px;

@@ -41,6 +41,19 @@ document.getElementById('griipeScalerY').addEventListener("mouseleave", function
 
 
 
+
+document.getElementById('profPicID').addEventListener("mouseover", function() {
+    TweenMax.to("#profPicID", .05, {transform: "scale(1.05)"})    
+})
+
+document.getElementById('profPicID').addEventListener("mouseleave", function() {
+    TweenMax.to("#profPicID", .05, {transform: "scale(1)"})    
+})
+
+
+
+
+
 document.getElementById('ViewMyWork').addEventListener("mouseleave", function() {
     TweenMax.to("#ViewMyWork", .4, {background: "rgba(255, 56, 95, 0)", border: "3px solid rgba(255, 255, 255, 1)"})
 })
