@@ -24,6 +24,16 @@ body {
    transform: scale(1.1);
 }
 
+#profPicID {
+    transform: scale(1);
+}
+
+
+
+#profPicID:hover {
+    cursor: pointer;
+}
+
 .introText {
     color: white;
 
@@ -205,6 +215,7 @@ h2 {
 
 
 .projectOne {
+    
     width: 500px; 
     height: 250px;
     border: 5px solid #3AE2D5;
@@ -212,11 +223,34 @@ h2 {
     padding: 5px;
 }
 
+#griipeScale {
+    display: flex;
+    justify-content: center;
+}
+
+#griipeScalerZ {
+    transform: scale(1);
+}
+
+#griipeScalerX {
+    transform: scale(1);
+}
+
+#griipeScalerY {
+    transform: scale(1);
+}
+
+#griipeScalerX2 {
+    display: flex;
+    justify-content: center;
+}
+
+
 .griipeContainer {
     padding-top: 30px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #E1E1E1;
     padding-bottom: 30px;
@@ -316,20 +350,44 @@ footer div i {
     margin: 20px;
 }
 
- .gitt:hover {
-    background: green;
+ .gitt {
+    background: #FF385F;
+    color: #151515;
 }
 
 .twitt:hover {
-    background: #3AAAE2;
+    background: #c72c4a;
+    cursor: pointer;
+}
+
+.gitt:hover {
+    background: #c72c4a;
+    cursor: pointer;
 }
 
 .instt:hover {
-    background: purple;
+    background: #c72c4a;
+    cursor: pointer;
 }
 
 .linkk:hover {
-    background: blue;
+    background: #c72c4a;
+    cursor: pointer;
+}
+
+.twitt {
+    background: #FF385F;
+    color: #151515;
+}
+
+.instt {
+    background: #FF385F;
+    color: #151515;
+}
+
+.linkk {
+    background: #FF385F;
+    color: #151515;
 } 
 
 .tags {
@@ -389,15 +447,30 @@ footer div i {
     display: none;
 }
 
+.SeeMoreLink {
+    color: #FF385F;
+}
+
+
  
 @media (max-width: 1110px) {
+
+    #profpicLinker {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
     .secondSecWrapper {
         flex-direction: column;
         height: 900px;
+  
     }
 
     .griipeContainer {
         flex-direction: column;
+        align-items: center;
     }
 
     .profpic {
