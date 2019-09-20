@@ -4,12 +4,42 @@ var elwidth = document.getElementById('homePage').offsetWidth;
 
 
 window.addEventListener("load", function() {
-    TweenMax.to(".topSecContent", 3, {transform: 'translateY(30px)', opacity: 1, ease:Cubic.easeOut})
+    TweenMax.to(".topSecContent", 1.5, {transform: 'translateY(30px)', opacity: 1, ease:Cubic.easeOut})
 })
 
 document.getElementById('ViewMyWork').addEventListener("mouseover", function() {
          TweenMax.to("#ViewMyWork", .4, {background: "rgba(255, 56, 95, 1)", border: "3px solid rgba(255, 255, 255, 0)"})    
  })
+
+// fix this vv
+
+document.getElementById('griipeScale').addEventListener("mouseover", function() {
+         TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1.05)"})    
+ })
+
+document.getElementById('griipeScale').addEventListener("mouseleave", function() {
+         TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1)"})    
+ })
+
+ 
+document.getElementById('griipeScalerX').addEventListener("mouseover", function() {
+         TweenMax.to("#griipeScalerX", .05, {transform: "scale(1.05)"})    
+ })
+
+document.getElementById('griipeScalerX').addEventListener("mouseleave", function() {
+         TweenMax.to("#griipeScalerX", .05, {transform: "scale(1)"})    
+ })
+
+
+ document.getElementById('griipeScalerY').addEventListener("mouseover", function() {
+    TweenMax.to("#griipeScalerY", .05, {transform: "scale(1.05)"})    
+})
+
+document.getElementById('griipeScalerY').addEventListener("mouseleave", function() {
+    TweenMax.to("#griipeScalerY", .05, {transform: "scale(1)"})    
+})
+
+
 
 document.getElementById('ViewMyWork').addEventListener("mouseleave", function() {
     TweenMax.to("#ViewMyWork", .4, {background: "rgba(255, 56, 95, 0)", border: "3px solid rgba(255, 255, 255, 1)"})
