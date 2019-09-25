@@ -226,6 +226,7 @@ h2 {
 #griipeScale {
     display: flex;
     justify-content: center;
+    height: 465px;
 }
 
 #griipeScalerZ {
@@ -243,6 +244,7 @@ h2 {
 #griipeScalerX2 {
     display: flex;
     justify-content: center;
+    height: 465px;
 }
 
 
