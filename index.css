@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+footer {
+    background: #151515;
+}
+
 .introContainer {
    height: 100%;
    width: 100%;
@@ -326,6 +330,8 @@ li {
    height: 80px;
    width: 100%;
    background-color: #151515;
+   border: 0;
+   
 }
 
 .plusone {
