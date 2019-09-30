@@ -463,6 +463,14 @@ footer div i {
  
 @media (max-width: 1110px) {
 
+    #griipeScalerX2 {
+        height: 500px;
+    }
+
+    #griipeScale  {
+        height: 500px;
+    }
+
     #profpicLinker {
         width: 100%;
         display: flex;
