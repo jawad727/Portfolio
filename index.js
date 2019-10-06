@@ -3,10 +3,10 @@ var elheight = document.getElementById('homePage').offsetHeight;
 var elwidth = document.getElementById('homePage').offsetWidth;
 
 
-var cw = $('.profpic').width();
-$('.profpic').css({
-    'height': cw + 'px'
-});
+// var cw = $('.profpic').width();
+// $('.profpic').css({
+//     'height': cw + 'px'
+// });
 
 
 window.addEventListener("load", function() {

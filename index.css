@@ -153,6 +153,7 @@ footer {
 .profpic {
     border-radius: 50%;
     width: 300px;
+    height: auto;
      border: 4px solid #3AE2D5;
      padding: 5px; 
 }
@@ -482,6 +483,8 @@ footer div i {
  
 @media (max-width: 1110px) {
 
+    
+
     #MenuLogo {
         display: none;
         
@@ -510,6 +513,10 @@ footer div i {
 
     .openMenu {
         background-image: radial-gradient( #303030, black);
+    }
+
+    .openMenu a {
+        font-size: 7rem;
     }
 
     #griipeScalerX2 {
@@ -616,9 +623,9 @@ footer div i {
         font-size: 2.5rem;
     }
 
-    #profPicID {
+    /* #profPicID {
         height: 490px;
-    }
+    } */
 
     #MenuLogo2 {
         left: 89%;
