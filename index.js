@@ -68,6 +68,27 @@ document.getElementById('ViewMyWork').addEventListener("click", function() {
     TweenMax.to(".secondSection", 1, {scrollTop: 0})
 })
 
+
+document.getElementById('MenuLogo2').addEventListener("click", function() {
+    TweenMax.to(".openMenu", 1, {display: "flex", opacity: 1, transform: "translateX(0px)"});
+    TweenMax.to("#exitButton2", 1, {display: "block"});
+})
+
+document.getElementById('exitButton2').addEventListener("click", function() {
+    TweenMax.to(".openMenu", .5, {display: "none", opacity: 0, transform: "translateX(160px)"});
+    TweenMax.to("#exitButton2", .1, {display: "none"});
+})
+
+document.getElementById('exitButton2').addEventListener("mouseover", function() {
+    TweenMax.to("#exitButton2", .7, {transform: "rotate(90deg)"})
+})
+
+document.getElementById('exitButton2').addEventListener("mouseleave", function() {
+    TweenMax.to("#exitButton2", .7, {transform: "rotate(0deg)"})
+})
+
+//-----------
+ 
 document.getElementById('MenuLogo').addEventListener("click", function() {
     TweenMax.to(".openMenu", 1, {display: "flex", opacity: 1, transform: "translateX(0px)"});
     TweenMax.to("#exitButton", 1, {display: "block"});
