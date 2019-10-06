@@ -420,6 +420,11 @@ footer div i {
     font-size: 1.1rem;
 }
 
+.footerLinkz {
+    height: 90px;
+    width: 90px;
+}
+
 .openMenu {
     display: flex;
     opacity: 0;
@@ -430,7 +435,8 @@ footer div i {
     width: 100%;
     height: 100%;
     z-index: 6;
-    background: rgb(0, 0, 0, .8);
+    background: rgb(0, 0, 0, .8); 
+    
     transform: translateX(160px);
     display: none;
 
@@ -459,16 +465,59 @@ footer div i {
     color: #FF385F;
 }
 
+#MenuLogo2 {
+    display: none;
+}
 
+#exitButton2 {
+    color: white;
+    margin-right: 80px;
+    position: fixed;
+    top: 26px;
+    left: 90%;
+    z-index: 8;
+    transform: rotate(0deg);
+    display: none;
+}
  
 @media (max-width: 1110px) {
 
+    #MenuLogo {
+        display: none;
+        
+    }
+
+    #JHlogo {
+        font-size: 40px;
+        top: 26px;
+    }
+
+
+    #MenuLogo2 {
+        display: block;
+        color: white;
+        
+        position: fixed;
+        z-index: 3;
+        top: 26px;
+        left: 90%;
+        z-index: 6;
+    }
+
+    .secondSection {
+        height: 100px;
+    }
+
+    .openMenu {
+        background-image: radial-gradient( #303030, black);
+    }
+
     #griipeScalerX2 {
-        height: 500px;
+        height: auto;
     }
 
     #griipeScale  {
-        height: 500px;
+        height: auto;
     }
 
     #profpicLinker {
@@ -503,7 +552,7 @@ footer div i {
     }
 
     .secondSection a {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 
     .secondSection {
@@ -570,6 +619,10 @@ footer div i {
     #profPicID {
         height: 490px;
     }
+
+    #MenuLogo2 {
+        left: 89%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -594,7 +647,40 @@ footer div i {
 .topSecContent h3 {
     text-align: center;
 }
-
-
 } 
 
+
+@media (max-width: 925px) {
+    .secondSection a {
+        margin: 15px 2%;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .secondSection a {
+        font-size: 1.5rem;
+        margin: 15px 2%;
+    }
+}
+
+@media (max-width: 550px) {
+    .secondSection a {
+        font-size: 1.4rem;
+        margin: 15px 1.5%;
+    }
+
+    #JHlogo {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    .secondSection a {
+        font-size: 1.2rem;
+    }
+
+    #MenuLogo2 {
+        left: 85%;
+    }
+}
