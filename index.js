@@ -19,6 +19,10 @@ document.getElementById('ViewMyWork').addEventListener("mouseover", function() {
 
 // fix this vv
 
+// document.getElementById('griipeScale').addEventListener("click", function() {
+//     window.open("https://griipe.netlify.com", "_blank")  
+// })
+
 document.getElementById('griipeScale').addEventListener("mouseover", function() {
          TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1.05)"})    
  })

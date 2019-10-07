@@ -7,6 +7,7 @@ body {
 
 .lineunder {
     text-decoration: none;
+    color: white;
 }
 
 .topSection {
@@ -261,6 +262,8 @@ h2 {
     align-items: center;
     background-color: #E1E1E1;
     padding-bottom: 30px;
+    width: 100%;
+    height: auto;
 }
 
 .griipeText {
@@ -521,16 +524,19 @@ footer div i {
 
     #griipeScalerX2 {
         height: auto;
+        display: flex;
     }
 
     #griipeScale  {
         height: auto;
+        display: flex;
     }
 
     #profpicLinker {
         width: 100%;
         display: flex;
         justify-content: center;
+        height: auto;
     }
 
 
@@ -543,6 +549,7 @@ footer div i {
     .griipeContainer {
         flex-direction: column;
         align-items: center;
+
     }
 
     .profpic {
