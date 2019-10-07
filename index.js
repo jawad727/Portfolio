@@ -3,6 +3,12 @@ var elheight = document.getElementById('homePage').offsetHeight;
 var elwidth = document.getElementById('homePage').offsetWidth;
 
 
+// var cw = $('.profpic').width();
+// $('.profpic').css({
+//     'height': cw + 'px'
+// });
+
+
 window.addEventListener("load", function() {
     TweenMax.to(".topSecContent", 1.5, {transform: 'translateY(30px)', opacity: 1, ease:Cubic.easeOut})
 })
@@ -12,6 +18,10 @@ document.getElementById('ViewMyWork').addEventListener("mouseover", function() {
  })
 
 // fix this vv
+
+// document.getElementById('griipeScale').addEventListener("click", function() {
+//     window.open("https://griipe.netlify.com", "_blank")  
+// })
 
 document.getElementById('griipeScale').addEventListener("mouseover", function() {
          TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1.05)"})    
@@ -62,6 +72,27 @@ document.getElementById('ViewMyWork').addEventListener("click", function() {
     TweenMax.to(".secondSection", 1, {scrollTop: 0})
 })
 
+
+document.getElementById('MenuLogo2').addEventListener("click", function() {
+    TweenMax.to(".openMenu", 1, {display: "flex", opacity: 1, transform: "translateX(0px)"});
+    TweenMax.to("#exitButton2", 1, {display: "block"});
+})
+
+document.getElementById('exitButton2').addEventListener("click", function() {
+    TweenMax.to(".openMenu", .5, {display: "none", opacity: 0, transform: "translateX(160px)"});
+    TweenMax.to("#exitButton2", .1, {display: "none"});
+})
+
+document.getElementById('exitButton2').addEventListener("mouseover", function() {
+    TweenMax.to("#exitButton2", .7, {transform: "rotate(90deg)"})
+})
+
+document.getElementById('exitButton2').addEventListener("mouseleave", function() {
+    TweenMax.to("#exitButton2", .7, {transform: "rotate(0deg)"})
+})
+
+//-----------
+ 
 document.getElementById('MenuLogo').addEventListener("click", function() {
     TweenMax.to(".openMenu", 1, {display: "flex", opacity: 1, transform: "translateX(0px)"});
     TweenMax.to("#exitButton", 1, {display: "block"});

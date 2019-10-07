@@ -7,6 +7,7 @@ body {
 
 .lineunder {
     text-decoration: none;
+    color: white;
 }
 
 .topSection {
@@ -153,6 +154,7 @@ footer {
 .profpic {
     border-radius: 50%;
     width: 300px;
+    height: auto;
      border: 4px solid #3AE2D5;
      padding: 5px; 
 }
@@ -230,7 +232,7 @@ h2 {
 #griipeScale {
     display: flex;
     justify-content: center;
-    height: 465px;
+    height: 275px;
 }
 
 #griipeScalerZ {
@@ -248,7 +250,7 @@ h2 {
 #griipeScalerX2 {
     display: flex;
     justify-content: center;
-    height: 465px;
+    height: 280px;
 }
 
 
@@ -260,6 +262,8 @@ h2 {
     align-items: center;
     background-color: #E1E1E1;
     padding-bottom: 30px;
+    width: 100%;
+    height: auto;
 }
 
 .griipeText {
@@ -420,6 +424,11 @@ footer div i {
     font-size: 1.1rem;
 }
 
+.footerLinkz {
+    height: 90px;
+    width: 90px;
+}
+
 .openMenu {
     display: flex;
     opacity: 0;
@@ -430,7 +439,8 @@ footer div i {
     width: 100%;
     height: 100%;
     z-index: 6;
-    background: rgb(0, 0, 0, .8);
+    background: rgb(0, 0, 0, .8); 
+    
     transform: translateX(160px);
     display: none;
 
@@ -459,14 +469,75 @@ footer div i {
     color: #FF385F;
 }
 
+#MenuLogo2 {
+    display: none;
+}
 
+#exitButton2 {
+    color: white;
+    margin-right: 80px;
+    position: fixed;
+    top: 26px;
+    left: 90%;
+    z-index: 8;
+    transform: rotate(0deg);
+    display: none;
+}
  
 @media (max-width: 1110px) {
 
+    
+
+    #MenuLogo {
+        display: none;
+        
+    }
+
+    #JHlogo {
+        font-size: 40px;
+        top: 26px;
+    }
+
+
+    #MenuLogo2 {
+        display: block;
+        color: white;
+        
+        position: fixed;
+        z-index: 3;
+        top: 26px;
+        left: 90%;
+        z-index: 6;
+    }
+
+    .secondSection {
+        height: 100px;
+    }
+
+    .openMenu {
+        background-image: radial-gradient( #303030, black);
+    }
+
+    .openMenu a {
+        font-size: 7rem;
+    }
+
+    #griipeScalerX2 {
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    #griipeScale  {
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
     #profpicLinker {
         width: 100%;
-        display: flex;
-        justify-content: center;
+        height: auto;
+        text-align: center;
     }
 
 
@@ -479,6 +550,7 @@ footer div i {
     .griipeContainer {
         flex-direction: column;
         align-items: center;
+
     }
 
     .profpic {
@@ -495,7 +567,7 @@ footer div i {
     }
 
     .secondSection a {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 
     .secondSection {
@@ -558,6 +630,14 @@ footer div i {
     .topSecContent h3 {
         font-size: 2.5rem;
     }
+
+    /* #profPicID {
+        height: 490px;
+    } */
+
+    #MenuLogo2 {
+        left: 89%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -582,7 +662,40 @@ footer div i {
 .topSecContent h3 {
     text-align: center;
 }
-
-
 } 
 
+
+@media (max-width: 925px) {
+    .secondSection a {
+        margin: 15px 2%;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .secondSection a {
+        font-size: 1.5rem;
+        margin: 15px 2%;
+    }
+}
+
+@media (max-width: 550px) {
+    .secondSection a {
+        font-size: 1.4rem;
+        margin: 15px 1.5%;
+    }
+
+    #JHlogo {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    .secondSection a {
+        font-size: 1.2rem;
+    }
+
+    #MenuLogo2 {
+        left: 85%;
+    }
+}
