@@ -524,19 +524,20 @@ footer div i {
 
     #griipeScalerX2 {
         height: auto;
-        display: flex;
+        display: block;
+        text-align: center;
     }
 
     #griipeScale  {
         height: auto;
-        display: flex;
+        display: block;
+        text-align: center;
     }
 
     #profpicLinker {
         width: 100%;
-        display: flex;
-        justify-content: center;
         height: auto;
+        text-align: center;
     }
 
 
