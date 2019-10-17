@@ -23,33 +23,35 @@ document.getElementById('ViewMyWork').addEventListener("mouseover", function() {
 //     window.open("https://griipe.netlify.com", "_blank")  
 // })
 
-document.getElementById('griipeScale').addEventListener("mouseover", function() {
-         TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1.05)"})    
- })
+// --vvv---
 
-document.getElementById('griipeScale').addEventListener("mouseleave", function() {
-         TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1)"})    
- })
+// document.getElementById('griipeScale').addEventListener("mouseover", function() {
+//          TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1.05)"})    
+//  })
+
+// document.getElementById('griipeScale').addEventListener("mouseleave", function() {
+//          TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1)"})    
+//  })
 
  
-document.getElementById('griipeScalerX').addEventListener("mouseover", function() {
-         TweenMax.to("#griipeScalerX", .05, {transform: "scale(1.05)"})    
- })
+// document.getElementById('griipeScalerX').addEventListener("mouseover", function() {
+//          TweenMax.to("#griipeScalerX", .05, {transform: "scale(1.05)"})    
+//  })
 
-document.getElementById('griipeScalerX').addEventListener("mouseleave", function() {
-         TweenMax.to("#griipeScalerX", .05, {transform: "scale(1)"})    
- })
-
-
- document.getElementById('griipeScalerY').addEventListener("mouseover", function() {
-    TweenMax.to("#griipeScalerY", .05, {transform: "scale(1.05)"})    
-})
-
-document.getElementById('griipeScalerY').addEventListener("mouseleave", function() {
-    TweenMax.to("#griipeScalerY", .05, {transform: "scale(1)"})    
-})
+// document.getElementById('griipeScalerX').addEventListener("mouseleave", function() {
+//          TweenMax.to("#griipeScalerX", .05, {transform: "scale(1)"})    
+//  })
 
 
+//  document.getElementById('griipeScalerY').addEventListener("mouseover", function() {
+//     TweenMax.to("#griipeScalerY", .05, {transform: "scale(1.05)"})    
+// })
+
+// document.getElementById('griipeScalerY').addEventListener("mouseleave", function() {
+//     TweenMax.to("#griipeScalerY", .05, {transform: "scale(1)"})    
+// })
+
+//-- ^^^ --
 
 
 document.getElementById('profPicID').addEventListener("mouseover", function() {
@@ -74,7 +76,7 @@ document.getElementById('ViewMyWork').addEventListener("click", function() {
 
 
 document.getElementById('MenuLogo2').addEventListener("click", function() {
-    TweenMax.to(".openMenu", 1, {display: "flex", opacity: 1, transform: "translateX(0px)"});
+    TweenMax.to(".openMenu", 1, {display: "flex", opacity: .9, transform: "translateX(0px)"});
     TweenMax.to("#exitButton2", 1, {display: "block"});
 })
 

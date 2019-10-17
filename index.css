@@ -515,7 +515,10 @@ footer div i {
     }
 
     .openMenu {
-        background-image: radial-gradient( #303030, black);
+
+        /* background-image: radial-gradient( #303030, black); */
+        background-image: linear-gradient(to bottom right, black, #0E0E0E);
+        opacity: 0.5;
     }
 
     .openMenu a {
