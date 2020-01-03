@@ -321,7 +321,7 @@ li {
 
 .wayve2 {
     width: 100%;
-    height: 20px;
+    height: 30px;
     background: #444444;
     -webkit-transform:rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -329,6 +329,8 @@ li {
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+
+
 
 .wayve3 {
    height: 80px;
@@ -490,6 +492,15 @@ footer div i {
     font-family: 'Courier New', Courier, monospace;
     font-family: 'Athiti';
     font-size: 1.1rem;
+    margin-top: 0px;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.portfolioBlue {
+    color: #3AE2D5;
 }
 
  
