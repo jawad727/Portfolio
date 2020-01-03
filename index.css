@@ -266,6 +266,8 @@ h2 {
     height: auto;
 }
 
+
+
 .griipeText {
     width: 500px;
 }
@@ -503,6 +505,9 @@ footer div i {
     color: #3AE2D5;
 }
 
+.textPink {
+    color: #FF385F;
+}
  
 @media (max-width: 1110px) {
 
