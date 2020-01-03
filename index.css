@@ -483,6 +483,15 @@ footer div i {
     transform: rotate(0deg);
     display: none;
 }
+
+.FullStackDescription {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Athiti';
+    font-size: 1.1rem;
+}
+
  
 @media (max-width: 1110px) {
 
