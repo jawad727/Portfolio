@@ -166,7 +166,7 @@ footer {
 .secondSecWrapper {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 400px;
    
 }
@@ -258,7 +258,7 @@ h2 {
     padding-top: 30px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #E1E1E1;
     padding-bottom: 30px;
