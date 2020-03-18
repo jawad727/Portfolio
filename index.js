@@ -3,11 +3,6 @@ var elheight = document.getElementById('homePage').offsetHeight;
 var elwidth = document.getElementById('homePage').offsetWidth;
 
 
-// var cw = $('.profpic').width();
-// $('.profpic').css({
-//     'height': cw + 'px'
-// });
-
 
 window.addEventListener("load", function() {
     TweenMax.to(".topSecContent", 1.5, {transform: 'translateY(30px)', opacity: 1, ease:Cubic.easeOut})
@@ -17,42 +12,6 @@ document.getElementById('ViewMyWork').addEventListener("mouseover", function() {
          TweenMax.to("#ViewMyWork", .4, {background: "rgba(255, 56, 95, 1)", border: "3px solid rgba(255, 255, 255, 0)"})    
  })
 
-// fix this vv
-
-// document.getElementById('griipeScale').addEventListener("click", function() {
-//     window.open("https://griipe.netlify.com", "_blank")  
-// })
-
-// --vvv---
-
-// document.getElementById('griipeScale').addEventListener("mouseover", function() {
-//          TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1.05)"})    
-//  })
-
-// document.getElementById('griipeScale').addEventListener("mouseleave", function() {
-//          TweenMax.to("#griipeScalerZ", .05, {transform: "scale(1)"})    
-//  })
-
- 
-// document.getElementById('griipeScalerX').addEventListener("mouseover", function() {
-//          TweenMax.to("#griipeScalerX", .05, {transform: "scale(1.05)"})    
-//  })
-
-// document.getElementById('griipeScalerX').addEventListener("mouseleave", function() {
-//          TweenMax.to("#griipeScalerX", .05, {transform: "scale(1)"})    
-//  })
-
-
-//  document.getElementById('griipeScalerY').addEventListener("mouseover", function() {
-//     TweenMax.to("#griipeScalerY", .05, {transform: "scale(1.05)"})    
-// })
-
-// document.getElementById('griipeScalerY').addEventListener("mouseleave", function() {
-//     TweenMax.to("#griipeScalerY", .05, {transform: "scale(1)"})    
-// })
-
-//-- ^^^ --
-
 
 document.getElementById('profPicID').addEventListener("mouseover", function() {
     TweenMax.to("#profPicID", .05, {transform: "scale(1.05)"})    
@@ -61,9 +20,6 @@ document.getElementById('profPicID').addEventListener("mouseover", function() {
 document.getElementById('profPicID').addEventListener("mouseleave", function() {
     TweenMax.to("#profPicID", .05, {transform: "scale(1)"})    
 })
-
-
-
 
 
 document.getElementById('ViewMyWork').addEventListener("mouseleave", function() {
@@ -151,6 +107,8 @@ document.getElementById('menuTwitter').addEventListener("mouseleave", function()
 
 
 // Scroll animations
+
+
 $('#ViewMyWork').click(function(e){
     var $target = $('html,body');
     $target.animate({scrollTop: elheight}, 1000);
@@ -188,16 +146,6 @@ window.addEventListener("scroll", function() {
 window.addEventListener("scroll", function() {
     TweenMax.to("#secondLine", 2, {transform: 'translateX(0px)', opacity: 1})
 })
-
-
-// window.addEventListener("scroll", function() {
-//     TweenMax.to("#secondLine", 2, {transform: 'translateX(0px)', opacity: 1, ease:Cubic.easeOut})
-// })
-// introTitle
-
-// window.addEventListener("load", function() {
-//     TweenMax.to(".topSecContent", 1, {transform: 'rotate(20deg)'})
-// })
 
 
 

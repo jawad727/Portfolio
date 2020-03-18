@@ -221,12 +221,15 @@ h2 {
 
 
 .projectOne {
-    
     width: 500px; 
     height: 250px;
     border: 5px solid #3AE2D5;
     border-radius: 10px;
     padding: 5px;
+}
+
+.projectOne:hover {
+    border: 5px solid #FF385F;
 }
 
 #griipeScale {
@@ -309,6 +312,10 @@ li {
 
 .secondg img {
     border: 5px solid #FF385F;
+}
+
+.secondg img:hover {
+    border: 5px solid #3AE2D5;
 }
 
 .thirdg {
